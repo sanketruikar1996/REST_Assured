@@ -1,0 +1,17 @@
+Khupda asa hota ki response mdhe similar type of code asto for assertiom
+
+
+ashya veles code redendecy kami sathi response spec builder cha use krto
+
+
+ek method create karaychi which will be annotated with @beforeclass
+ tyat responseSpecBuilder cha new use krun object create karaycha ani mg .use krun method call krun similar
+ assertion takayche 
+ 
+ mg Class level la requesSpecificaton cha null value deun variable create karcya ani tyala 
+ assing karaycha nantr like
+ 
+ requestSpec=requestBuilder.build()
+ 
+ ani mg ha requestSpe call karaycha 
+ after then .spec method la dyaycha 

@@ -1,0 +1,16 @@
+Known Properties are those which are Present On Pojo class
+
+Un-Known are those which are there not present in Pojo class still we send them through payload 
+
+for eg example fullName is not present in pojo 
+
+so it will raise an exception named "UnrecognizedPropertyException"
+
+to handle such scenario 
+
+How to ignore Unknown Properties during Deserilizaton
+================================================
+1) Using @@JsonIgnoreProperties annotaion at class level
+    --@JsonIgnoreProperties(ignoreUnknown = true)
+2) Using Object Mapper
+    --objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
